@@ -21,6 +21,7 @@ struct ContentView: View {
             
             ArtView()
                 .frame(width: 250, height: 360)
+                .offset(y: 30)
         }
         .ignoresSafeArea()
         
