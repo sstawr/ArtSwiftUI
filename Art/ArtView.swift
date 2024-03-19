@@ -32,7 +32,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             .offset(y: offset)
             .offset(x: offsetX)
@@ -51,7 +51,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             .offset(y: offset1)
             .offset(x: offsetX1)
@@ -73,7 +73,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             
 //            Нос 2
@@ -86,7 +86,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             
 
@@ -134,7 +134,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             
             //            2
@@ -145,7 +145,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             
             //            3
@@ -156,7 +156,7 @@ struct ArtView: View {
                 
                 path.closeSubpath()
             }
-            .fill(Color(.orange))
+            .fill(Gradient(colors: [.orange, .red]))
             .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             
             
@@ -169,7 +169,7 @@ struct ArtView: View {
                     
                     path.closeSubpath()
                 }
-                .fill(Color(.orange))
+                .fill(Gradient(colors: [.orange, .red]))
                 .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
                 
                 //            5
@@ -192,7 +192,7 @@ struct ArtView: View {
                     
                     path.closeSubpath()
                 }
-                .fill(Color(.orange))
+                .fill(Gradient(colors: [.orange, .red]))
                 .stroke(Color.black, style: StrokeStyle(lineWidth: 3))
             }
             .offset(y: offset2)
